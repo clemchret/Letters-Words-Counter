@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Compteur de mots | Clem</title>
+        <script async src="script.js"></script>
+    </head>
+    <body>
+        <h1>Compteur de mots</h1>
+
+        <form id="formulaireTexte">
+
+            <div class="champsTexte">
+                <label for="textArea">Entrez votre texte ici :</label>
+                <textarea id="textArea" name="textArea" minlength="0" maxlength="1000" required></textarea>
+            </div>
+
+            <button id="btnTexte" type="button">Envoyer</button>
+
+            <span id="resultatWords"></span>
+            <span id="resultatLetters"></span>
+
+        </form>
+
+    </body>
+</html>
